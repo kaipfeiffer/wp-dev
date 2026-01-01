@@ -1,4 +1,8 @@
 /wp-content/themes*
+/wp-content/uploads*
+/wp-content/languages*
 /wp-content/plugins/akismet*
 /wp-content/plugins/hello.php
 /wp-content/plugins/index.php
+build*
+de_DE-*
