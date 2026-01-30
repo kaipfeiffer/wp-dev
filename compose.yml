@@ -5,7 +5,7 @@ services:
     build: './docker/wordpress/'
     container_name: wordpress
     volumes:
-      - ./wp-content:/var/www/html/wp-content
+      - ./wp-content/plugins:/var/www/html/wp-content/plugins
     environment:
       - WORDPRESS_DB_NAME=wordpress
       - WORDPRESS_TABLE_PREFIX=wp_
