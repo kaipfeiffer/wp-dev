@@ -6,3 +6,4 @@
 /wp-content/plugins/index.php
 build*
 de_DE-*
+.DS_Store
